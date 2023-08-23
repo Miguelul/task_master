@@ -572,7 +572,7 @@ class AddTaskState extends State<AddTask> with TickerProviderStateMixin  {
 
 
   setNotification(DateTime scheduledNotificationDateTime) async {
-    var android = AndroidNotificationDetails(taskChannelId, taskChannelName, taskChannelDescription);
+    var android = AndroidNotificationDetails(taskChannelId, taskChannelName, );
     var iOS = IOSNotificationDetails();
     var platform = NotificationDetails(android: android, iOS: iOS);
     //var scheduledNotificationDateTime =DateTime.parse(dateInputController.text.trim()+" "+timeInputController.text.trim());
@@ -589,7 +589,7 @@ class AddTaskState extends State<AddTask> with TickerProviderStateMixin  {
     DateTime.now().add(Duration(seconds: 5));
     var androidPlatformChannelSpecifics =
     AndroidNotificationDetails('your other channel id',
-        'your other channel name', 'your other channel description');
+        'your other channel name');
     var iOSPlatformChannelSpecifics =
     IOSNotificationDetails();
     NotificationDetails platformChannelSpecifics = NotificationDetails(android:

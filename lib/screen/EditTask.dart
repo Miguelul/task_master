@@ -488,7 +488,7 @@ class EditTaskState extends State<EditTask> with TickerProviderStateMixin  {
   }
 
   setNotification(DateTime scheduledNotificationDateTime) async {
-    var android = AndroidNotificationDetails(taskChannelId, taskChannelName, taskChannelDescription);
+    var android = AndroidNotificationDetails(taskChannelId, taskChannelName,);
     var iOS = IOSNotificationDetails();
     var platform = NotificationDetails(android: android, iOS: iOS);
     //var scheduledNotificationDateTime =DateTime.parse(dateInputController.text.trim()+" "+timeInputController.text.trim());

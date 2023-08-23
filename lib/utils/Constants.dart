@@ -1,9 +1,8 @@
 const String isLogin = 'isLogin';
 const String isLoginType = 'isLoginType';
-const String apiKey = "ba473d2522924658b172ec25772ee72c";
+const String apiKey = "AIzaSyCCYaUwYlNtziYciTkG9117D_foUWRGUEY";
 
 const String taskChannelId = "10001";
-const String taskChannelName = "Task Reminder";
+const String taskChannelName = "task_master";
 const String taskChannelDescription = "Task reminder description";
-const String projectId = 'task-app-3001e';
-const String databaseURL = 'https://task-app-3001e.firebaseio.com';
+const String projectId = 'industrial-e474b';

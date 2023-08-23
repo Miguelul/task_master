@@ -21,7 +21,7 @@ Future<void> main() async {
     apiKey: apiKey,
     messagingSenderId: 'your_messaging_sender_id',
     projectId: projectId,
-    databaseURL: databaseURL ,
+    // databaseURL: databaseURL ,
     storageBucket: 'your_storage_bucket',
     authDomain: 'your_auth_domain',
     measurementId: 'your_measurement_id',

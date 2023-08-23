@@ -188,12 +188,8 @@ class HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin  {
                       height: 30,
                       width: 30,
                     ),
-                    activeIcon: Column(
-                      children: <Widget>[
-                        SizedBox(height: 10,),
-                        Text("Task",style: _page==0?tabSelectedStyle:tabStyle),
-                      ],
-                    ),
+                  
+                  label: "Task"
                 ),
                 BottomNavigationBarItem(
                     icon: Image(
@@ -202,12 +198,8 @@ class HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin  {
                       height: 30,
                       width: 30,
                     ),
-                    activeIcon: Column(
-                      children: <Widget>[
-                        SizedBox(height: 10,),
-                        Text("Completed Task",style: _page==1?tabSelectedStyle:tabStyle),
-                      ],
-                    ),
+                    label: "Completed Task",
+                 
                 ),
                 BottomNavigationBarItem(
                     icon: Image(
@@ -216,12 +208,8 @@ class HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin  {
                       height: 30,
                       width: 30,
                     ),
-                    activeIcon: Column(
-                      children: <Widget>[
-                        SizedBox(height: 10,),
-                        Text("Settings",style: _page==2?tabSelectedStyle:tabStyle),
-                      ],
-                    ),
+                    label: "Settings"
+             
                 ),
               ],
               currentIndex: _page,

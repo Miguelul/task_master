@@ -1,43 +1,78 @@
 {
   "project_info": {
-    "project_number": "197366772090",
-    "firebase_url": "https://task-app-3001e.firebaseio.com",
-    "project_id": "task-app-3001e",
-    "storage_bucket": "task-app-3001e.appspot.com"
+    "project_number": "925979550954",
+    "firebase_url": "https://industrial-e474b-default-rtdb.firebaseio.com",
+    "project_id": "industrial-e474b",
+    "storage_bucket": "industrial-e474b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:197366772090:android:03ec654713e52bbade66c3",
+        "mobilesdk_app_id": "1:925979550954:android:f08ff1d1e2faed7b3b6393",
         "android_client_info": {
-          "package_name": "com.taskapp"
+          "package_name": "com.example.gymtesis"
         }
       },
       "oauth_client": [
         {
-          "client_id": "197366772090-390oub4kbiqa157ub3d91d9li4pltb4k.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.taskapp",
-            "certificate_hash": "870bbc16c7ce3a31ea8686d39eb579aa22a8df1b"
-          }
-        },
-        {
-          "client_id": "197366772090-cne86iiv6h6f8m1u46rtl41bjfjpbhif.apps.googleusercontent.com",
+          "client_id": "925979550954-in8kl0lskumtqad25p70k5ojtlnscqp8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBGfzENTywv_eBDpgRMMLGS-xHfPExyTsE"
+          "current_key": "AIzaSyDnkXXEdqI5pg0iOX2AoHLvrgDssBLokEo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "197366772090-cne86iiv6h6f8m1u46rtl41bjfjpbhif.apps.googleusercontent.com",
+              "client_id": "925979550954-in8kl0lskumtqad25p70k5ojtlnscqp8.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "925979550954-ts9lu1knfqb4jc9qfbu0220b2lsr9jfl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.miguelantoniorincon.deg001"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925979550954:android:5a8926133b4f6f183b6393",
+        "android_client_info": {
+          "package_name": "com.example.task_master"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925979550954-in8kl0lskumtqad25p70k5ojtlnscqp8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnkXXEdqI5pg0iOX2AoHLvrgDssBLokEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925979550954-in8kl0lskumtqad25p70k5ojtlnscqp8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "925979550954-ts9lu1knfqb4jc9qfbu0220b2lsr9jfl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.miguelantoniorincon.deg001"
+              }
             }
           ]
         }
