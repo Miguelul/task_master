@@ -1,0 +1,68 @@
+name: taskapp
+description: A Task Master application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  modal_progress_hud_nsn: ^0.4.0
+  # modal_progress_hud: ^0.1.3
+  cloud_firestore: ^4.8.5
+  firebase_auth: ^4.7.3
+  firebase_core: ^2.15.1
+  firebase_storage: ^11.2.6
+  # native_admob_flutter: ^1.4.0
+  admob_flutter: ^3.0.0
+  google_sign_in: ^6.1.4
+  connectivity: ^3.0.6
+  shared_preferences: ^2.2.0
+  datetime_picker_formfield: ^2.0.0
+  random_string: ^2.1.0
+  share: ^2.0.4
+  package_info: ^2.0.2
+  url_launcher: ^6.0.9
+  rate_my_app: ^1.1.0+1
+  webview_flutter: ^2.0.9
+
+
+  image_picker: ^0.8.1+3
+
+  intl: ^0.18.1
+  flutter_local_notifications: ^8.0.0
+  devicelocale: ^0.6.0
+  dotted_border: ^2.0.0+3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/
+
+  fonts:
+    - family: AppBold
+      fonts:
+        - asset: assets/fonts/segoeuib.ttf
+    - family: AppLight
+      fonts:
+        - asset: assets/fonts/segoeuil.ttf
+    - family: AppRegular
+      fonts:
+        - asset: assets/fonts/segoeui.ttf
+    - family: AppItalic
+      fonts:
+        - asset: assets/fonts/segoeuii.ttf
