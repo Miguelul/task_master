@@ -14,8 +14,8 @@ import 'utils/AppTheme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp();
-  await FirebaseAuth.instance.useAuthEmulator('localhost', 9099);
+  await Firebase.initializeApp();
+  // await FirebaseAuth.instance.useAuthEmulator('localhost', 9099);
   Admob.initialize();
   runApp(MyApp());
 }
